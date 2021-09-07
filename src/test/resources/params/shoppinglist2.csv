@@ -1,0 +1,5 @@
+name,price,quantity,unit of measure,provider
+apples,1.5,2,kg,""
+oranges,3,5,kg,supermarket
+bananas,1.2,10,kg,grocery store
+cherrys,5,1,,supermarket
