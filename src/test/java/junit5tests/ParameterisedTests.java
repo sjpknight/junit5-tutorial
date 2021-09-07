@@ -48,7 +48,7 @@ public class ParameterisedTests {
     }
 
     @ParameterizedTest
-    @CsvSource(value = {"steve?rogers", "tony?stark", "peter?parker"}, delimiter = '?')
+    @CsvSource(value = {"Steve?Rogers", "tony?stark", "peter?parker"}, delimiter = '?')
     void csvSource_StringWithDifferentDelimiter(String param1, String param2) {
         System.out.println("param1 = " + param1 + ", param2 = " + param2);
     }
